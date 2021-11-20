@@ -6,7 +6,9 @@ namespace SnakesAndLadders
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to Snakes and Ladders Game Program");
+            const int InitialPosition = 0;
+            int PlayerPosition = InitialPosition;
+            Console.WriteLine("Single player is starting with position " + PlayerPosition);
             Console.ReadLine();
         }
     }
